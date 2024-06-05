@@ -1,4 +1,4 @@
-#include "../../include/DTs/DTFecha.h"
+#include "../include/DTFecha.h"
 // Constructor
 DTFecha::DTFecha(int _dia, int _mes, int _ano): dia(_dia), mes(_mes), ano(_ano) {}
 // Destructor

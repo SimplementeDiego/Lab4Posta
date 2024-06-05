@@ -18,7 +18,7 @@ string Cliente::getCiudad(){
     return ciudad;
 };  
 
-set<DataVendedor*> Cliente::obtenerSuscripciones(){
+/*set<DataVendedor*> Cliente::obtenerSuscripciones(){
 
     set<Vendedor*>::iterator it;
     set<DataVendedor*> lista; 
@@ -32,7 +32,7 @@ set<DataVendedor*> Cliente::obtenerSuscripciones(){
         lista.insert(dataV);
     }
     return lista; //limpiar memoria de dataVendedor al finalizar el caso de uso
-}
+}*/
 
 /*======= SETTERS ========*/
 void Cliente::setDireccion(DTDireccion* _direccion){

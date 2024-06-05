@@ -1,4 +1,4 @@
-#include "../../include/DTs/DataComentario.h"
+#include "../include/DataComentario.h"
 
 DataComentario::DataComentario(string _comentario, DTFecha* _fecha, int id){
     comentario = _comentario;
